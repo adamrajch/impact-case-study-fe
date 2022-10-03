@@ -1,0 +1,72 @@
+{
+  "name": "impact-app-template",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=14.0.0",
+    "yarn": ">=1.22.0",
+    "npm": "please-use-yarn!!"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_OPTIONS='--inspect' next dev",
+    "develop": "next",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prettier": "prettier --write .",
+    "prepare": "husky install",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/server": "^11.10.0",
+    "@mantine/core": "^5.5.0",
+    "@mantine/form": "^5.5.0",
+    "@mantine/hooks": "^5.5.0",
+    "@mantine/next": "^5.5.0",
+    "@mantine/notifications": "^5.5.0",
+    "@modulz/radix-icons": "^4.0.0",
+    "@tabler/icons": "^1.101.0",
+    "axios": "^0.27.2",
+    "framer-motion": "^7.5.1",
+    "next": "12.3.1",
+    "qs": "^6.11.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-markdown": "^8.0.3",
+    "remark-gfm": "^3.0.1",
+    "stylis-plugin-rtl": "^2.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
+    "@storybook/addon-actions": "^6.5.12",
+    "@storybook/addon-essentials": "^6.5.12",
+    "@storybook/addon-interactions": "^6.5.12",
+    "@storybook/addon-links": "^6.5.12",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/builder-webpack5": "^6.5.12",
+    "@storybook/manager-webpack5": "^6.5.12",
+    "@storybook/react": "^6.5.12",
+    "@storybook/testing-library": "^0.0.13",
+    "@types/node": "18.7.23",
+    "@types/react": "18.0.21",
+    "babel-loader": "^8.2.5",
+    "cross-env": "^7.0.3",
+    "eslint": "8.24.0",
+    "eslint-config-mantine": "^2.0.0",
+    "eslint-config-next": "12.3.1",
+    "eslint-plugin-storybook": "^0.5.7",
+    "husky": "^8.0.1",
+    "prettier": "^2.7.1",
+    "storybook-addon-next": "^1.6.9",
+    "storybook-addon-next-router": "^3.1.1",
+    "storybook-css-modules-preset": "^1.1.1",
+    "typescript": "4.8.4"
+  },
+  "resolutions": {
+    "webpack": "^5"
+  }
+}
